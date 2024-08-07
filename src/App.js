@@ -5,8 +5,8 @@ import Home from './components/user/pages/Home';
 import Catalog from './components/user/pages/Catalog';
 import About from './components/user/pages/About';
 import Contact from './components/user/pages/Contact';
-import Signin from './components/user/pages/Signup';
-import Login from './components/user/pages/Login';
+import Signin from './components/user/pages/Signin';
+import Signup from './components/user/pages/Signup';
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Route path="/catalog" element={ <Catalog/>}/>
         <Route path="/about" element={ <About/>}/>
         <Route path="/contact" element={ <Contact/>}/>
-        <Route path="/signup" element={ <Signin/>}/>
-        <Route path="/login" element={ <Login/>}/>  
+        <Route path="/signup" element={ <Signup/>}/>
+        <Route path="/signin" element={ <Signin/>}/>  
       </Routes>
     </BrowserRouter>
   

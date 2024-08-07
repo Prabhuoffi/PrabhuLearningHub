@@ -32,7 +32,7 @@ const Navbar = () => {
             />
             <FaSearch className="absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500" />
           </div>
-          <Link to="/login" className="text-white hover:text-gray-400 hover:border-b-2 hover:border-yellow-500">Login</Link>
+          <Link to="/signin" className="text-white hover:text-gray-400 hover:border-b-2 hover:border-yellow-500">Login</Link>
           <Link to="/signup" className="text-white hover:text-gray-400 hover:border-b-2 hover:border-yellow-500">Signup</Link>
           <button onClick={toggleMenu} className="md:hidden text-white focus:outline-none">
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
