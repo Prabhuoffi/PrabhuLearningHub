@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 shadow-md">
+    <nav className="bg-gray-900 p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <div className="text-white text-2xl font-bold">
+          <div className="text-white text-xl font-bold">
             <Link to="/">Prabhu's Learning Hub</Link>
           </div>
           <div className="hidden md:flex ml-20 space-x-8">

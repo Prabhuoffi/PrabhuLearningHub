@@ -6,8 +6,8 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section className="bg-gray-800 h-screen text-white flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-5xl font-bold mb-4">Welcome to Prabhu's Learning Hub</h1>
+        <div className="text-center mb-48">
+          <h1 className="text-3xl md:text-5xl mb-4 font-bold">Welcome to Prabhu's Learning Hub</h1>
           <p className="text-xl mb-8">Your one-stop solution for online learning</p>
           <Link to="/catalog" className="bg-yellow-500 text-gray-800 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-400 transition duration-300">Explore Courses</Link>
         </div>
